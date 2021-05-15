@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mario {
+    position: absolute;
+    width: 300px;
+    z-index: 10;
+}
+
+#bicho{
+    position: absolute;
+    left: 1000px;
+    width: 500px;
+}
+
+#gomba{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    top: 480px;
+    left: 50px;
+}
+
+#balao{
+    left: 1000px;
+    position: absolute;
+    z-index: 1;
+    left: 800px;
+}
+
+#p{
+    position: absolute;
+    z-index: 11;
+    font-size: 1.5rem;
+    left: 820px;
+    top: 100px;
+}

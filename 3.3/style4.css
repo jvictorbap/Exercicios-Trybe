@@ -1,0 +1,46 @@
+div:hover{
+  border: 1px solid black;
+}
+
+body{
+  background-color: aqua;
+}
+
+body div{
+  background-color: red;
+}
+
+div h3{
+}
+
+div:nth-child(5) h3{
+  height: 100px;
+  color: aqua;
+}
+
+div:nth-child(6) h3{
+  color: blue;
+  background-color:darkgoldenrod
+}
+
+div:nth-child(7) h3{
+  color: cornsilk;
+  background-color:darkblue
+}
+
+div:nth-child(4) h3{
+  color: darkviolet;
+  background-color: violet;
+}
+
+div:nth-child(3) h3{
+  color: darkorange;
+  background-color: black;
+}
+
+div:nth-of-type(odd){
+  font-style: italic;
+  color: white;
+}
+
+div
