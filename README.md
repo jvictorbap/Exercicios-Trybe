@@ -1,2 +1,2 @@
-Este repositorio sera destinado a todos meus exercicios na Trybe
+Este repositorio sera destinado a todos meus exercicios na Trybe.
 
