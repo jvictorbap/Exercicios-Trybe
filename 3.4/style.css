@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+    background-color:lightslategrey;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px black;
+    border-bottom: 1px solid black;
+}
+
+header h1{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Girassol', cursive;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 15px 10px
+}
+
+nav ul li a{
+    padding: 10px 10px;
+    background-color:darkslategray;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px darkgreen;
+    text-decoration: none;
+}
+
+.article-title{
+    background-color: darkslategray;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.article-title h1{
+    text-align: center;
+    font-family: 'Girassol', cursive;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 5px auto;
+}
+
+.article-title h3{
+    text-align: center;
+    font-size: 3.0rem;
+    margin: 10px auto;
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    text-shadow: 10px 10px black;
+}
+
+#soco{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#info{
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 2px black
+}
+
+#info p{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 1px black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#interessantes{
+    box-shadow: 0px 2px black;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#stomatopoda{
+    width: 500px;
+    border-radius: 2rem;
+}
+
+#stomatopoda2{
+    margin-top: 10px;
+    width: 500px;
+    border-radius: 6rem;
+    margin-bottom: 10px;
+}
+
+#interessantes p{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 1px black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#bibliography p{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 1px black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#bibliography{
+    box-shadow: 0px 2px black;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#bibliography a{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0px 1px black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#video{
+    display: block;
+    margin: 0.5rem auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 3.0rem;
+    margin: 0px auto;
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+footer{
+    background-color:lightslategrey;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px black;
+    border-bottom: 1px solid black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+main{
+    background-color: black;
+}
