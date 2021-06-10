@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Curriculo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form action="" method="GET">
+    <fieldset>
+      <label for="nome"> Nome
+        <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required maxlength="40">
+      </label>
+      <br>
+      <label for="email"> Email
+        <input type="email" name="email" id="email" placeholder="Insira seu email" required maxlength="50">
+      </label>
+      <br>
+      <label for="cpf"> CPF
+        <input type="text" name="cpf" id="cpf" placeholder="Insira seu CPF" required maxlength="11">
+      </label>
+      <br>
+      <label for="endereco"> Endereço
+        <input type="text" name="endereco" id="endereco" placeholder="Insira seu endereco" required maxlength="200">
+      </label>
+      <br>
+      <label for="cidade"> Cidade
+        <input type="text" name="cidade" id="cidade" placeholder="Insira sua cidade" required maxlength="28">
+      </label>
+      <br>
+      <label for="estado"> Estado
+        <select name="estado" id="estado">
+        </select>
+      </label>
+      <br>
+      <label for="tipo"> Tipo
+        <input type="select" name="tipo" id="tipo" placeholder="Insira o tipo" required>
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <label for="resumo"> Resumo do currículo
+        <textarea name="resumo" id="resumo" cols="30" rows="1" maxlength="1000" required
+          placeholder="Insira o resumo"></textarea>
+      </label>
+      <br>
+      <label for="cargo"> Cargo
+        <input type="text" name="cargo" id="cargo" placeholder="Insira seu cargo" required maxlength="40">
+      </label>
+      <br>
+      <label for="descricao"> Descrição do Cargo
+        <textarea name="descricao" id="descricao" cols="30" rows="1" maxlength="500" required
+          placeholder="Insira a descricao do seu cargo"></textarea>
+      </label>
+      <br>
+      <label for="inicio"> Data de Inicio
+        <input type="text" name="inicio" id="inicio" placeholder="Insira a data de inicio" required>
+      </label>
+      <br>
+      <button type="submit" id="enviar">Enviar</button>
+      <button type="submit" id="enviar2">Remover Checkout</button>
+      <br>
+      <button type="reset" onclick="resetButton();">Reset</button>
+    </fieldset>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
