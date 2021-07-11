@@ -1,0 +1,23 @@
+{
+  "name": "Exercicios-Trybe",
+  "version": "1.0.0",
+  "description": "Este repositorio sera destinado a todos meus exercicios na Trybe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvictorbap/Exercicios-Trybe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvictorbap/Exercicios-Trybe/issues"
+  },
+  "homepage": "https://github.com/jvictorbap/Exercicios-Trybe#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
